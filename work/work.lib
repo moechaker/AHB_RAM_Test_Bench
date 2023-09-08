@@ -1,0 +1,113 @@
+timestamp=1694152115393
+
+[~A]
+LastVerilogToplevel=tb
+ModifyID=1
+Version=74
+design.sv_testbench.sv=0*8498*15713
+
+[~MFT]
+0=18|0work.mgf|15713|0
+1=11|1work.mgf|72433|0
+3=22|3work.mgf|114228|0
+
+[$root]
+A/$root=22|||1*0
+BinL64/$root=3*0
+SLP=3*106
+Version=2022.04.117 (Linux64)|00000012789cd32dc9cc4d2d4e4ecc495530cc2bd60762003d9c0658|c73a565f2ade592f8ac1c68f484c9216af6bb7e1c3e839247e1e1eade4214f9b
+
+[\std::mailbox#([]bit) \]
+A/\std::mailbox#([]bit) \=22|||1*32023
+AICT=433702941413120
+BinL64/\std::mailbox#([]bit) \=3*48481
+CLI=0*3227
+SLP=3*50525
+Version=2022.04.117 (Linux64)|00000012789cd32dc9cc4d2d4e4ecc495530cc2bd60762003d9c0658|1e719b6ecd2368499b5e157e46e8cd70c3655e51134a1205855503c9025e44ab26527262ddaa47cb266f3a3c4d9b973ae4a5f18f57309c20d52e9cc5398d9e07
+
+[\std::mailbox#(transaction) \]
+A/\std::mailbox#(transaction) \=22|||1*28243
+AICT=433702941412608
+BinL64/\std::mailbox#(transaction) \=3*45450
+CLI=0*2819
+SLP=3*47232
+Version=2022.04.117 (Linux64)|00000012789cd32dc9cc4d2d4e4ecc495530cc2bd60762003d9c0658|1e719b6ecd2368499b5e157e46e8cd700c31c31c31c4a3840d1d4de4df34dafee17464f1a94737b4bd0b2895bf24c4986741d59606a342d6f6cf8b34a34c54b5
+
+[ahb_if]
+A/ahb_if=22|../design.sv|848|1*10761
+BinL64/ahb_if=3*21077
+R=../design.sv|848
+SLP=3*21286
+Version=2022.04.117 (Linux64)|00000012789cd32dc9cc4d2d4e4ecc495530cc2bd60762003d9c0658|913e44cb920ffb5ff12d0ee49566df4ee3a2aef09b65fd14d2a9295f13e07c20
+
+[ahb_slave]
+A/ahb_slave=22|../design.sv|14|1*374
+BinL64/ahb_slave=3*174
+R=../design.sv|14
+SLP=3*7975
+Version=2022.04.117 (Linux64)|00000012789cd32dc9cc4d2d4e4ecc495530cc2bd60762003d9c0658|d35061fe16c18d02250737fae3a907799296125d150d3b7cc58f379c64e15503449c8090c5211cba28aad02028c88b8a
+
+[driver]
+A/driver=22|../driver.sv|1|1*45246
+AICT=433702941414144
+BinL64/driver=3*63254
+CLI=0*5495
+R=../driver.sv|1
+SLP=3*74690
+Version=2022.04.117 (Linux64)|00000012789cd32dc9cc4d2d4e4ecc495530cc2bd60762003d9c0658|32a8809e0c82d5e52151c5a0d1b53825d17bb2091f3b3340e61d28f6d37f307f
+
+[generator]
+A/generator=22|../generator.sv|1|1*36101
+AICT=433702941411584
+BinL64/generator=3*51770
+CLI=0*4329
+R=../generator.sv|1
+SLP=3*57882
+Version=2022.04.117 (Linux64)|00000012789cd32dc9cc4d2d4e4ecc495530cc2bd60762003d9c0658|868a022443c89e9f5ff3df3152251b4d1393fddf47876bc361e7a33e2c7578ef606130f74e358cad9d77bc9b0a4b3b36
+
+[monitor]
+A/monitor=22|../monitor.sv|1|1*54803
+AICT=433702941415680
+BinL64/monitor=3*83998
+CLI=0*6737
+R=../monitor.sv|1
+SLP=3*92839
+Version=2022.04.117 (Linux64)|00000012789cd32dc9cc4d2d4e4ecc495530cc2bd60762003d9c0658|95ff40020058ee65c420aa5e779914f826527262ddaa47cb266f3a3c4d9b973aa18a953d0bfc1194ed66f3dca4118db6
+
+[scoreboard]
+A/scoreboard=22|../scoreboard.sv|1|1*64858
+AICT=433702941416704
+BinL64/scoreboard=3*100961
+CLI=0*7882
+R=../scoreboard.sv|1
+SLP=3*106121
+Version=2022.04.117 (Linux64)|00000012789cd32dc9cc4d2d4e4ecc495530cc2bd60762003d9c0658|cb8490c56fdb537d2557a00a58b17e11d8626a3683e7935cfb3d638038a68041bae82eb24c65813e0e6435060e5122dc
+
+[tb]
+A/tb=22|../testbench.sv|7|1*72433
+BinL64/tb=3*111068
+R=../testbench.sv|7
+SLP=3*114228
+Version=2022.04.117 (Linux64)|00000012789cd32dc9cc4d2d4e4ecc495530cc2bd60762003d9c0658|8db8692708dc0985d408d2497dbc95fa3a46846966e23ac0e512dc3484d90d1c
+
+[transaction]
+A/transaction=22|../transaction.sv|1|1*13320
+AICT=433702941410560
+BinL64/transaction=3*21356
+CLI=0*2194
+R=../transaction.sv|1
+SLP=3*33315
+Version=2022.04.117 (Linux64)|00000012789cd32dc9cc4d2d4e4ecc495530cc2bd60762003d9c0658|e7c58dcfddb8de4c8440dd51a2d497d1fcb4642d0ac36a420143c757ad4eab6ae5e703dd490d97720bcefb5227441c66
+
+[~U]
+$root=12|0*0|
+\std::mailbox#([]bit) \=12|||0x10030000
+\std::mailbox#(transaction) \=12|||0x10030000
+ahb_if=12|0*995||0x80000
+ahb_slave=12|0*326|
+driver=12|0*4776||0x30000
+generator=12|0*3665||0x30000
+monitor=12|0*6026||0x30000
+scoreboard=12|0*7245||0x30000
+tb=12|0*8330||0x10
+transaction=12|0*1329||0x30000

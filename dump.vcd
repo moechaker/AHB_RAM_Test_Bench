@@ -1,0 +1,894 @@
+$date
+Fri Sep  8 01:48:36 2023
+$end
+$version
+Riviera-PRO Version 2022.04.117.8517
+$end
+$timescale
+1 ps
+$end
+
+$scope module tb $end
+$var integer 32 ! count $end
+$var event 1 " done $end
+$var event 1 # drvnext $end
+$var event 1 $ sconext $end
+
+$scope module vif $end
+$var reg 1 % clk $end
+$var reg 32 & hwdata [31:0] $end
+$var reg 32 ' haddr [31:0] $end
+$var reg 3 ( hsize [2:0] $end
+$var reg 3 ) hburst [2:0] $end
+$var reg 1 * hresetn $end
+$var reg 1 + hsel $end
+$var reg 1 , hwrite $end
+$var reg 2 - htrans [1:0] $end
+$var reg 2 . hresp [1:0] $end
+$var reg 1 / hready $end
+$var reg 32 0 hrdata [31:0] $end
+$var reg 32 1 next_addr [31:0] $end
+$upscope $end
+
+
+$scope module dut $end
+$var wire 1 2 clk $end
+$var wire 32 3 hwdata [31:0] $end
+$var wire 32 4 haddr [31:0] $end
+$var wire 3 5 hsize [2:0] $end
+$var wire 3 6 hburst [2:0] $end
+$var wire 1 7 hresetn $end
+$var wire 1 8 hsel $end
+$var wire 1 9 hwrite $end
+$var wire 2 : htrans [1:0] $end
+$var reg 2 ; hresp [1:0] $end
+$var reg 1 < hready $end
+$var reg 32 = hrdata [31:0] $end
+$var integer 32 > state $end
+$var integer 32 ? next_state $end
+$var integer 32 @ len_count $end
+$var reg 1 A first $end
+$var reg 32 B retaddr [31:0] $end
+$var reg 32 C next_addr [31:0] $end
+$var reg 8 D wboundary [7:0] $end
+
+$scope function single_tr $end
+$var reg 32 E addr [31:0] $end
+$var reg 3 F hsize [2:0] $end
+$var reg 32 G single_tr [31:0] $end
+$upscope $end
+
+
+$scope function unincr_wr $end
+$var reg 32 H addr [31:0] $end
+$var reg 3 I hsize [2:0] $end
+$var reg 32 J unincr_wr [31:0] $end
+$var reg 32 K raddr [31:0] $end
+$upscope $end
+
+
+$scope function boundary $end
+$var reg 3 L hburst [2:0] $end
+$var reg 3 M hsize [2:0] $end
+$var reg 8 N boundary [7:0] $end
+$var reg 8 O temp [7:0] $end
+$upscope $end
+
+
+$scope function wrap_wr $end
+$var reg 32 P addr [31:0] $end
+$var reg 8 Q boundary [7:0] $end
+$var reg 3 R hsize [2:0] $end
+$var reg 32 S wrap_wr [31:0] $end
+$var reg 32 T addr1 [31:0] $end
+$var reg 32 U addr2 [31:0] $end
+$var reg 32 V addr3 [31:0] $end
+$var reg 32 W addr4 [31:0] $end
+$upscope $end
+
+
+$scope function incr_wr $end
+$var reg 32 X addr [31:0] $end
+$var reg 3 Y hsize [2:0] $end
+$var reg 32 Z incr_wr [31:0] $end
+$var reg 32 [ raddr [31:0] $end
+$upscope $end
+
+
+$scope function single_tr_rd $end
+$var reg 32 \ addr [31:0] $end
+$var reg 3 ] hsize [2:0] $end
+$var reg 32 ^ single_tr_rd [31:0] $end
+$upscope $end
+
+
+$scope function unincr_rd $end
+$var reg 32 _ addr [31:0] $end
+$var reg 3 ` hsize [2:0] $end
+$var reg 32 a unincr_rd [31:0] $end
+$var reg 32 b raddr [31:0] $end
+$upscope $end
+
+
+$scope function wrap_rd $end
+$var reg 32 c addr [31:0] $end
+$var reg 8 d boundary [7:0] $end
+$var reg 3 e hsize [2:0] $end
+$var reg 32 f wrap_rd [31:0] $end
+$var reg 32 g addr1 [31:0] $end
+$var reg 32 h addr2 [31:0] $end
+$var reg 32 i addr3 [31:0] $end
+$var reg 32 j addr4 [31:0] $end
+$upscope $end
+
+
+$scope function incr_rd $end
+$var reg 32 k addr [31:0] $end
+$var reg 3 l hsize [2:0] $end
+$var reg 32 m incr_rd [31:0] $end
+$var reg 32 n raddr [31:0] $end
+$upscope $end
+
+$upscope $end
+
+
+$scope task @FORK#50_0@ $end
+$upscope $end
+
+
+$scope task @FORK#51_1@ $end
+$upscope $end
+
+
+$scope task @FORK#52_2@ $end
+$upscope $end
+
+
+$scope task @FORK#53_3@ $end
+$upscope $end
+
+$upscope $end
+
+$enddefinitions $end
+$dumpvars
+b11 !
+0%
+bx &
+bx '
+bx (
+bx )
+0*
+x+
+x,
+bx -
+b0 .
+0/
+bx 0
+bx 1
+02
+bx 3
+bx 4
+bx 5
+bx 6
+07
+x8
+x9
+bx :
+b0 ;
+0<
+bx =
+b0 >
+b1 ?
+b0 @
+0A
+bx B
+bx C
+bx D
+b0 E
+b0 F
+b0 G
+b0 H
+b0 I
+b0 J
+b0 K
+b0 L
+bx M
+b0 N
+b0 O
+b0 P
+b0 Q
+bx R
+b0 S
+b0 T
+b0 U
+b0 V
+b0 W
+b0 X
+b0 Y
+b0 Z
+b0 [
+b0 \
+b0 ]
+b0 ^
+b0 _
+b0 `
+b0 a
+b0 b
+b0 c
+b0 d
+bx e
+b0 f
+b0 g
+b0 h
+b0 i
+b0 j
+b0 k
+b0 l
+b0 m
+b0 n
+$end
+#5000
+1%
+12
+#10000
+0%
+02
+#15000
+1%
+12
+#20000
+0%
+02
+#25000
+1%
+12
+#30000
+0%
+02
+#35000
+1%
+12
+#40000
+0%
+02
+#45000
+1%
+12
+#50000
+0%
+02
+#55000
+1%
+12
+#60000
+0%
+02
+#65000
+1%
+12
+#70000
+0%
+02
+#75000
+1%
+12
+#80000
+0%
+02
+#85000
+1%
+12
+#90000
+0%
+02
+#95000
+1%
+12
+1*
+17
+#100000
+0%
+02
+#105000
+1%
+12
+1,
+1+
+b1 )
+b10 (
+b101 '
+b101 &
+b0 -
+b1 >
+b0 :
+b101 3
+b101 4
+b10 5
+b1 6
+18
+19
+b100 ?
+#110000
+0%
+02
+#115000
+1%
+12
+b100 >
+b101 C
+b10 ?
+b101 1
+#120000
+0%
+02
+#125000
+1%
+12
+b10 >
+1<
+b101 H
+b10 I
+b1001 K
+b1001 J
+b1001 B
+b1 @
+b1 ?
+1/
+#130000
+0%
+02
+#135000
+1%
+12
+1$
+b11111 &
+b1 -
+b1 >
+b1 :
+b11111 3
+0<
+b100 ?
+0/
+#140000
+0%
+02
+#145000
+1%
+12
+b100 >
+b1001 C
+b10 ?
+b1001 1
+#150000
+0%
+02
+#155000
+1%
+12
+b10 >
+1<
+b1001 H
+b1101 K
+b1101 J
+b1101 B
+b10 @
+b1 ?
+1/
+#160000
+0%
+02
+#165000
+1%
+12
+1$
+b10001 &
+b1 >
+b10001 3
+0<
+b100 ?
+0/
+#170000
+0%
+02
+#175000
+1%
+12
+b100 >
+b1101 C
+b10 ?
+b1101 1
+#180000
+0%
+02
+#185000
+1%
+12
+b10 >
+1<
+b1101 H
+b10001 K
+b10001 J
+b10001 B
+b11 @
+b1 ?
+1/
+#190000
+0%
+02
+#195000
+1%
+12
+1$
+b1011111 &
+b1 >
+b1011111 3
+0<
+b100 ?
+0/
+#200000
+0%
+02
+#205000
+1%
+12
+b100 >
+b10001 C
+b10 ?
+b10001 1
+#210000
+0%
+02
+#215000
+1%
+12
+b10 >
+1<
+b10001 H
+b10101 K
+b10101 J
+b10101 B
+b100 @
+b1 ?
+1/
+#220000
+0%
+02
+#225000
+1%
+12
+1$
+b1110 &
+b1 >
+b1110 3
+0<
+b100 ?
+0/
+#230000
+0%
+02
+#235000
+1%
+12
+b100 >
+b10101 C
+b10 ?
+b10101 1
+#240000
+0%
+02
+#245000
+1%
+12
+b10 >
+1<
+b10101 H
+b11001 K
+b11001 J
+b11001 B
+b101 @
+b1 ?
+1/
+#250000
+0%
+02
+#255000
+1%
+12
+1#
+1$
+b1 >
+0<
+b100 ?
+0/
+#260000
+0%
+02
+#265000
+1%
+12
+b11 &
+b0 -
+b100 >
+b0 :
+b11 3
+b101 C
+b10 ?
+b101 1
+#270000
+0%
+02
+#275000
+1%
+12
+b10 >
+1<
+b101 H
+b1001 K
+b1001 J
+b1001 B
+b110 @
+b1 ?
+1/
+#280000
+0%
+02
+#285000
+1%
+12
+1$
+b11001 &
+b1 -
+b1 >
+b1 :
+b11001 3
+0<
+b100 ?
+0/
+#290000
+0%
+02
+#295000
+1%
+12
+b100 >
+b1001 C
+b10 ?
+b1001 1
+#300000
+0%
+02
+#305000
+1%
+12
+b10 >
+1<
+b1001 H
+b1101 K
+b1101 J
+b1101 B
+b111 @
+b1 ?
+1/
+#310000
+0%
+02
+#315000
+1%
+12
+1$
+b1010111 &
+b1 >
+b1010111 3
+0<
+b100 ?
+0/
+#320000
+0%
+02
+#325000
+1%
+12
+b100 >
+b1101 C
+b10 ?
+b1101 1
+#330000
+0%
+02
+#335000
+1%
+12
+b10 >
+1<
+b1101 H
+b10001 K
+b10001 J
+b10001 B
+b1000 @
+b1 ?
+1/
+#340000
+0%
+02
+#345000
+1%
+12
+1$
+b111100 &
+b1 >
+b111100 3
+0<
+b100 ?
+0/
+#350000
+0%
+02
+#355000
+1%
+12
+b100 >
+b10001 C
+b10 ?
+b10001 1
+#360000
+0%
+02
+#365000
+1%
+12
+b10 >
+1<
+b10001 H
+b10101 K
+b10101 J
+b10101 B
+b1001 @
+b1 ?
+1/
+#370000
+0%
+02
+#375000
+1%
+12
+1$
+b1001110 &
+b1 >
+b1001110 3
+0<
+b100 ?
+0/
+#380000
+0%
+02
+#385000
+1%
+12
+b100 >
+b10101 C
+b10 ?
+b10101 1
+#390000
+0%
+02
+#395000
+1%
+12
+b10 >
+1<
+b10101 H
+b11001 K
+b11001 J
+b11001 B
+b1010 @
+b1 ?
+1/
+#400000
+0%
+02
+#405000
+1%
+12
+1#
+1$
+b1 >
+0<
+b100 ?
+0/
+#410000
+0%
+02
+#415000
+1%
+12
+0,
+b0 &
+b0 -
+b100 >
+b0 :
+b0 3
+09
+b101 C
+b11 ?
+b101 1
+#420000
+0%
+02
+#425000
+1%
+12
+b11 >
+1<
+b101 _
+b10 `
+b11 =
+b1001 b
+b1001 a
+b1001 B
+b1011 @
+b1 ?
+1/
+b11 0
+#430000
+0%
+02
+#435000
+1%
+12
+1$
+b1 -
+b1 >
+b1 :
+0<
+b100 ?
+0/
+#440000
+0%
+02
+#445000
+1%
+12
+b100 >
+b1001 C
+b11 ?
+b1001 1
+#450000
+0%
+02
+#455000
+1%
+12
+b11 >
+1<
+b1001 _
+b11001 =
+b1101 b
+b1101 a
+b1101 B
+b1100 @
+b1 ?
+1/
+b11001 0
+#460000
+0%
+02
+#465000
+1%
+12
+1$
+b1 >
+0<
+b100 ?
+0/
+#470000
+0%
+02
+#475000
+1%
+12
+b100 >
+b1101 C
+b11 ?
+b1101 1
+#480000
+0%
+02
+#485000
+1%
+12
+b11 >
+1<
+b1101 _
+b1010111 =
+b10001 b
+b10001 a
+b10001 B
+b1101 @
+b1 ?
+1/
+b1010111 0
+#490000
+0%
+02
+#495000
+1%
+12
+1$
+b1 >
+0<
+b100 ?
+0/
+#500000
+0%
+02
+#505000
+1%
+12
+b100 >
+b10001 C
+b11 ?
+b10001 1
+#510000
+0%
+02
+#515000
+1%
+12
+b11 >
+1<
+b10001 _
+b111100 =
+b10101 b
+b10101 a
+b10101 B
+b1110 @
+b1 ?
+1/
+b111100 0
+#520000
+0%
+02
+#525000
+1%
+12
+1$
+b1 >
+0<
+b100 ?
+0/
+#530000
+0%
+02
+#535000
+1%
+12
+b100 >
+b10101 C
+b11 ?
+b10101 1
+#540000
+0%
+02
+#545000
+1%
+12
+b11 >
+1<
+b10101 _
+b1001110 =
+b11001 b
+b11001 a
+b11001 B
+b1111 @
+b1 ?
+1/
+b1001110 0
+#550000
+0%
+02
+#555000
+1%
+12
+1#
+1$
+1"
